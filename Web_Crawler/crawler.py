@@ -34,8 +34,6 @@ def match_functions():
             # exits program if security warning pops up
             if result_string[0] == r"u'http://us.rd.yahoo.com/500/*http://www.yahoo.com'":
                 sys.exit()  
-        #This is for monitoring purposes, prints the 18th link in the array to ensure        
-        print(result_string[18])
         result_string = str(result_string)
         result_string = result_string.split()
         # iterates through the links and breaks once it finds the msdn link
