@@ -45,7 +45,6 @@ def match_functions():
             if found is not None:
                 url_result = result.split("'")
                 final_result = url_result[1]
-                print(final_result)
                 break
         # Returns the description for the function
         description = find_description.find_description(final_result, function)
