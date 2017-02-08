@@ -1,5 +1,5 @@
 ## Microsoft Function Web Scraping Script
-###### This script is used to scrape microsoft functions descriptions 
+##### This script is used to scrape microsoft functions descriptions 
 -----------
 ###### **Usage**
 - Ensure that your system has Python3
