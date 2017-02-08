@@ -16,7 +16,6 @@ def find_description(url, function):
         if function.lower() in title.lower():
             description = (soup.find('p'))
             description = description.get_text()
-            print(description)
             return(description)
 
         else:
